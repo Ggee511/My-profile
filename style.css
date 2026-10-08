@@ -19,12 +19,12 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.7;
     color: var(--text);
-    background-color: rgba(128, 128, 128, 0.856);
+    background-color: white;
 }
 
 /* 2. Text and links */
@@ -78,11 +78,131 @@ abbr[title] {
 
 #sef {
     text-align: center;
-    font-size: 39px;
-    background-color:yellow
+    font-size: 41px;
+    background-color:greenyellow;
+    color: black;
+    border-radius: 6px;
 }
 
 #sef:hover{
     transition: 0.2s;
-    background-color:greenyellow;
+    background-color:yellow;
+}
+
+#p{
+    text-align:center;
+}
+
+nav{
+    background-color: #222;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #00bfff;
+}
+
+/* HEADER */
+#top{
+    background-color: #1f2937;
+    /*background: linear-gradient(skyblue,lightgreen);*/
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#about{
+    max-width: 1250px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color: black;
+    background-color: #375886b3;
+    border-style: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+    /*object-fit: cover;*/
+    border: 5px solid #38bdf8;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, o.2);
+    transition: o.4s ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+#ul{
+        
+    width: fit-content;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#ol{
+        
+    width: fit-content;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#skills{
+    background-color: #b87a44e7;
+    border-style: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#projects{
+    background-color: #bbf2f0;
+    border-style: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#schedule{
+    background-color: #92ca39a5;
+    border-style: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#media{
+    background-color: #55c1ef;
+    border-style: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#contact{
+    background-color: #827d7cb0;
+    border-style: none;
+    padding: 10px;
+    border-radius: 6px;
 }
